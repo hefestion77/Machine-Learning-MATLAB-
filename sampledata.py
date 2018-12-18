@@ -1,7 +1,9 @@
 def sampledata(X, y):
-    ''' (ndarray, ndarray) ->
-
-    '''
+    """
+    Shuffles ndarrays X and y 10 times and returns
+    3 different datasets; training examples, cross-validation examples and
+    test examples with their correspondent y values.
+    """
     import numpy as np
     
     m = X.shape[0]
